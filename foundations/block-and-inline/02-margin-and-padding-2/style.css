@@ -7,6 +7,9 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  border-color: white;
+  border-width:10px;
+  border-style: solid;
 }
 
 .title {
