@@ -1,0 +1,30 @@
+/* Made this file so I can add the styling added in the solution.css here to the
+orinal styling one by one, to walkthrough it all, to better my understanding of it. */
+
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+}
+
+.title {
+  background: #e3f4ff;
+}
+
+.content {
+  background: #e3f4ff;
+}
+
+.button-container {
+  background: #e3f4ff;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+}
