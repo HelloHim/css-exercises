@@ -1,11 +1,18 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header  {
   font-family: monospace;
   background: papayawhip;
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
 }
 
 .logo {
@@ -14,11 +21,15 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 8px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
 }
 
 a {
@@ -27,4 +38,6 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  color: blue;
+  font-weight: bold;
 }
