@@ -66,3 +66,11 @@ ul {
   align-items: center;
   flex: auto;
 }
+
+.right-side-header {
+  display: flex;
+  justify-content:flex-end;
+  flex: auto;
+  gap: 12px;
+  margin: 20px;
+}
