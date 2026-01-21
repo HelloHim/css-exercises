@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -28,8 +29,24 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 16px;
+  font-size: 24px;
+  gap: 16px;
 }
 
+ul{
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
