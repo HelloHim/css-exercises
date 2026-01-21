@@ -63,3 +63,13 @@ a {
 button {
   padding: 10px;
 }
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.footer {
+  margin-top: auto;
+}
