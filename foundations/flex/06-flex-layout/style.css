@@ -35,6 +35,7 @@ input {
   display: flex;
   justify-content: space-between;
   margin: 16px;
+  margin-bottom: 255px;
 }
 
 .left-links,.right-links {
@@ -45,4 +46,10 @@ input {
 a {
   color: grey;
   text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
