@@ -23,6 +23,10 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
 }
 
 .sidebar {
@@ -56,6 +60,7 @@ a {
 .wrapper {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .content-container {
