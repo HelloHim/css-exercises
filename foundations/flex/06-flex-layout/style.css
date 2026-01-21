@@ -71,5 +71,9 @@ button {
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
   margin-top: auto;
+  background-color: #eeeeee;
+  padding: 16px;
 }
