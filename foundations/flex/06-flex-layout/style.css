@@ -42,4 +42,7 @@ input {
   gap: 24px;
 }
 
-
+a {
+  color: grey;
+  text-decoration: none;
+}
