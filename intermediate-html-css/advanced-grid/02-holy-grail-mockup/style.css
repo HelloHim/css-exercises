@@ -31,6 +31,7 @@
 .logo {
   grid-column: 1;
   width: max-content;
+  align-self: center;
 }
 
 .menu ul,
@@ -64,7 +65,8 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
-  align-content: center;
+  display: grid;
+  align-items: center;
 
 }
 
@@ -74,7 +76,8 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
-  align-content: center;
+  display: grid;
+  align-items: center;
 }
 
 .nav {
@@ -102,7 +105,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   align-items: center;
-  gap: 12px;
+  gap: 15px;
 }
 
 .article p {
@@ -116,6 +119,7 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  height: 200px;
 }
 
 .card p {
@@ -127,6 +131,7 @@
 .card .title {
   font-size: 18px;
   text-align: center;
+  margin-bottom: 12px;
 }
 
 .footer {
