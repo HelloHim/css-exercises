@@ -48,6 +48,8 @@
 }
 .sidebar {
   background-color: #C50208;
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
 }
 
 .sidebar .photo {
@@ -68,11 +70,18 @@
 
 .nav {
   background-color: #C50208;
+  display: grid;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+  list-style: none;
 }
 
 .article {
